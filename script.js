@@ -1,22 +1,3 @@
-// document.addEventListener("DOMContentLoaded", function () {
-//   const btnNavEl = document.querySelector(".btn-mobile-nav");
-//   const headerEl = document.querySelector(".header");
-//   const nav = document.querySelector(".fill");
-//   console.log(nav);
-
-//   btnNavEl.addEventListener("click", function () {
-//     console.log("hello");
-//     nav.classList.toggle("nav-open");
-//   });
-// });
-// first
-// const btnNavEl = document.querySelector(".btn-mobile-nav");
-// const headerEl = document.querySelector(".header");
-
-// btnNavEl.addEventListener("click", function () {
-//   headerEl.classList.toggle("nav-open");
-// });
-
 document
   .querySelector(".btn-mobile-nav")
   .addEventListener("click", function () {
