@@ -1,6 +1,7 @@
 body {
-  font-family: "Playfair Display", serif;
+  font-family: "Alkatra", sans-serif;
 }
+
 @-webkit-keyframes fill {
   0% {
     width: 0%;

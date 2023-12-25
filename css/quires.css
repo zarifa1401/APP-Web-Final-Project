@@ -50,22 +50,22 @@
     visibility: hidden;
   }
 
-  .nav-open ul {
+  .nav-open .fill {
     opacity: 1;
     pointer-events: auto;
     visibility: visible;
     transform: translateX(0);
   }
 
-  /* .nav-open .icon-mobile-nav[name="close-outline"] {
+  .nav-open .icon-mobile-nav[name="close-outline"] {
     display: block;
-  } */
+  }
 
   .nav-open .icon-mobile-nav[name="menu-outline"] {
     display: none;
   }
 
-  nav ul li {
+  .fill {
     flex-direction: column;
     gap: 4.8rem;
   }
