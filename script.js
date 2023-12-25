@@ -96,5 +96,5 @@ userbtn.addEventListener("click", () => {
 document
   .querySelector(".btn-mobile-nav")
   .addEventListener("click", function () {
-    document.querySelector(".fill").classList.toggle("nav-open");
+    document.querySelector(".fill").classList.toggle("active");
   });
