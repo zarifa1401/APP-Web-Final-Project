@@ -128,4 +128,15 @@
     text-align: center;
     margin-top: 10px;
   }
+  .btn {
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    border: none;
+    /* background-color: #116edf; */
+    background-image: linear-gradient(to right, blue, #116edf);
+    color: white;
+    font-size: 0.8rem;
+    margin-bottom: 2.5rem;
+    margin-top: -4px;
+  }
 }
