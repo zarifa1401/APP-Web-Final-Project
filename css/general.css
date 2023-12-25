@@ -88,7 +88,7 @@ nav.fill ul li a:hover:after {
   opacity: 1;
 }
 /* MOBILE */
-.btn-mobile-nav {
+/* .btn-mobile-nav {
   border: none;
   background: none;
   cursor: pointer;
@@ -106,6 +106,6 @@ nav.fill ul li a:hover:after {
 
 .icon-mobile-nav[name="close-outline"] {
   display: none;
-}
+} */
 
 /* new */

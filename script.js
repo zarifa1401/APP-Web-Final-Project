@@ -1,8 +1,3 @@
-document
-  .querySelector(".btn-mobile-nav")
-  .addEventListener("click", function () {
-    document.querySelector(".fill").classList.toggle("nav-open"); // Toggle the nav-open class to show/hide the mobile nav
-  });
 // random user btn
 let text = document.getElementById("text1");
 let personName = document.getElementById("text2");
@@ -98,3 +93,8 @@ userbtn.addEventListener("click", () => {
   photo.src = user.image;
   personName.innerHTML = user.name;
 });
+document
+  .querySelector(".btn-mobile-nav")
+  .addEventListener("click", function () {
+    document.querySelector(".fill").classList.toggle("nav-open");
+  });

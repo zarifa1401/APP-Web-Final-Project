@@ -47,9 +47,8 @@ header {
   color: white;
 }
 .heading-1 {
-  font-size: 2.5rem; /* font-size: 5.2rem; */
+  font-size: 2.5rem;
   line-height: 1.05;
-  /* margin-bottom: 3.2rem; */
 }
 .heading-2 {
   font-size: 1rem;
@@ -91,11 +90,7 @@ header {
 .text-about {
   text-align: center;
 }
-.div-text {
-  /* margin-left: 20rem;
-  margin-right: 20rem; */
-  /* margin: 20rem; */
-}
+
 .Project-text {
   margin-right: 28rem;
   margin-left: 28rem;
@@ -181,12 +176,7 @@ header {
 .card .card-img:hover {
   transform: scale(1.1);
 }
-.about-section {
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row; */
-}
+
 .team-cards-container {
   display: flex;
   gap: 2rem;
@@ -209,10 +199,6 @@ header {
   border-radius: 1rem;
   margin-top: 1rem;
   box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.2);
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; */
 }
 .team-text {
 }
@@ -241,7 +227,6 @@ header {
   border: none;
 }
 /* //////footer */
-/* styles.css */
 
 footer {
   background-color: gray;
@@ -301,11 +286,3 @@ footer {
   text-decoration: none;
   color: #333;
 }
-
-/* header nav {
-  display: none;
-}
-.nav-open {
-  display: block;
-  z-index: 3;
-} */

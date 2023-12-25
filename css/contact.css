@@ -5,14 +5,9 @@
 }
 
 body {
-  /* font-family: "Montserrat-Regular"; */
-  
     font-family: 'Alkatra', sans-serif;
-  
   color: #fff;
   font-size: 15px;
-
-  /* margin-top: 8rem; */
   background-images
 }
 
@@ -281,7 +276,7 @@ button:hover i {
 
 @keyframes my-animation {
   from {
-    /* background-color: #ff7a59; */
+   
     background-color:#1111
     width: 350px;
     top: 40px;
