@@ -2,26 +2,17 @@ html,
 body {
   margin: 0;
   padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 
-  font-family: "Alkatra", sans-serif;
+  /* font-family: "Alkatra", sans-serif; */
 
-  padding-top: 2rem;
+  /* padding-top: 2rem; */
 }
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  /* padding: 12px; */
-  /* background-color: #181b1c; */
-  background-color: white;
-
-  overflow: hidden;
-  top: 0;
-  right: 0;
-  left: 0;
-  position: fixed;
-  z-index: 1;
+.h2 {
+  color: #333;
+}
+.p {
+  color: rgb(73, 72, 72);
 }
 
 .logo img {
@@ -29,12 +20,23 @@ header {
   margin-left: 1.5rem;
   /* height: 2rem; */
 }
+.text-div-services {
+  font-size: 1.8rem;
+}
+.Project-text {
+  font-size: 1.8rem;
+}
 
 .services-section {
   margin-top: 1.8rem;
+  padding: 4rem 0;
+  background-color: #bdc3c7;
+}
+.about-section {
+  padding: 4rem 0;
 }
 
-.container {
+.container-4 {
   display: flex;
   justify-content: flex-start;
 
@@ -43,6 +45,7 @@ header {
 }
 .descrip {
   color: white;
+  margin-top: 1rem;
 }
 .heading-1 {
   font-size: 2.5rem;
@@ -75,8 +78,9 @@ header {
 .cards-1 .card {
   height: 250px;
   width: 300px;
+  background-image: linear-gradient(to right, rgb(218, 214, 214), lightblue);
 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(46, 45, 45, 0.2);
   /* box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.2); */
   text-align: center;
 }
@@ -115,6 +119,10 @@ header {
   background-repeat: no-repeat;
   /* background-color: #fdf2e9; */
   /* padding: 4.8rem 0 9.6rem 0; */
+}
+.Project-section {
+  padding: 2rem 0;
+  padding-top: 4.5rem;
 }
 
 .cards .card {
@@ -198,8 +206,7 @@ header {
   margin-top: 1rem;
   box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.2);
 }
-.team-text {
-}
+
 .button:hover {
   background-color: transparent;
   border: 3px solid white;
@@ -283,4 +290,101 @@ footer {
 .email-link a {
   text-decoration: none;
   color: #333;
+}
+/* mobile */
+.btn-mobile-nav {
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+
+/*
+===========================
+ */
+.navbar {
+  background-color: white;
+  color: black;
+  /* padding-bottom: 1rem; */
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  left: 0;
+  position: fixed;
+  z-index: 1;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  /* color: #333; */
+}
+
+.toggle-button {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    background-color: #fff;
+
+    padding: 20px 0;
+  }
+
+  .nav-links li {
+    margin: 10px 0;
+  }
+  .nav-links li a {
+    color: #333;
+  }
+
+  .toggle-button {
+    display: flex;
+  }
 }

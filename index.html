@@ -31,27 +31,30 @@
     <title>Zarifa-Tech &mdash; Stay Updated!</title>
   </head>
   <body>
-    <header class="header">
-      <div class="logo">
-        <img src="images/images-removebg-preview.png" alt="Logo" />
-      </div>
-      <nav class="fill">
-        <ul>
+    <nav class="navbar fill header">
+      <div class="container">
+        <div class="logo">
+          <img src="images/images-removebg-preview.png" alt="Logo" />
+        </div>
+        <ul class="nav-links" id="navLinks">
           <li><a href="index.html">Home</a></li>
           <li><a href="Project.html">projects</a></li>
           <li><a href="Services.html">Services</a></li>
           <li><a href="about.html">about us</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
-      </nav>
-      <!-- <button class="btn-mobile-nav">
-        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
-        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
-      </button> -->
-    </header>
+        <div class="toggle-button" onclick="toggleMenu()">
+          <ion-icon class="icon-mobile-nav show" name="menu-outline"></ion-icon>
+          <ion-icon
+            class="icon-mobile-nav close"
+            name="close-outline"
+          ></ion-icon>
+        </div>
+      </div>
+    </nav>
 
     <section id="home">
-      <div class="container">
+      <div class="container-4">
         <div class="descrip">
           <h3 class="heading-1">
             Transforming in to digital <br />

@@ -25,23 +25,33 @@
     <title>Zarifa-Tech &mdash; Stay Updated!</title>
   </head>
   <body>
-    <header>
-      <div class="logo">
-        <img src="images/images-removebg-preview.png" alt="Logo" />
-      </div>
-      <nav class="fill">
-        <ul>
+    <nav class="navbar fill header">
+      <div class="container">
+        <div class="logo">
+          <img src="images/images-removebg-preview.png" alt="Logo" />
+        </div>
+        <ul class="nav-links" id="navLinks">
           <li><a href="index.html">Home</a></li>
           <li><a href="Project.html">projects</a></li>
           <li><a href="Services.html">Services</a></li>
           <li><a href="about.html">about us</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
-      </nav>
-    </header>
+        <div class="toggle-button" onclick="toggleMenu()">
+          <ion-icon class="icon-mobile-nav show" name="menu-outline"></ion-icon>
+          <ion-icon
+            class="icon-mobile-nav close"
+            name="close-outline"
+          ></ion-icon>
+        </div>
+      </div>
+    </nav>
+
     <section class="services-section">
       <div class="text-about">
-        <div class="text-div"><h3 class="project-text">Our Services</h3></div>
+        <div class="text-div-services">
+          <h3 class="project-text">Our Services</h3>
+        </div>
         <p class="detail">
           We Ofer the best services for you in order to improve your bussines.
         </p>
@@ -65,8 +75,8 @@
                 />
               </svg>
 
-              <h2>Technology</h2>
-              <p>
+              <h2 class="h2">Technology</h2>
+              <p class="p">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero
                 quidem quos earum tenetur odit.
               </p>
@@ -89,9 +99,9 @@
                 />
               </svg>
 
-              <h2>Technology</h2>
+              <h2 class="h2">Technology</h2>
 
-              <p>
+              <p class="p">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero
                 quidem quos earum tenetur odit.
               </p>
@@ -114,8 +124,8 @@
                 />
               </svg>
 
-              <h2>Technology</h2>
-              <p>
+              <h2 class="h2">Technology</h2>
+              <p class="p">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero
                 quidem quos earum tenetur odit.
               </p>

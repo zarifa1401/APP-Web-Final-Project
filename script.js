@@ -1,3 +1,18 @@
+let navLinks = document.getElementById("navLinks");
+let showIcon = document.querySelector(".show");
+let closeIcon = document.querySelector(".close");
+function toggleMenu() {
+  if (navLinks.style.display === "block") {
+    navLinks.style.display = "none";
+    showIcon.style.display = "block";
+    closeIcon.style.display = "none";
+  } else {
+    navLinks.style.display = "block";
+    showIcon.style.display = "none";
+    closeIcon.style.display = "block";
+  }
+}
+
 // random user btn
 let text = document.getElementById("text1");
 let personName = document.getElementById("text2");
@@ -93,8 +108,8 @@ userbtn.addEventListener("click", () => {
   photo.src = user.image;
   personName.innerHTML = user.name;
 });
-document
-  .querySelector(".btn-mobile-nav")
-  .addEventListener("click", function () {
-    document.querySelector(".fill").classList.toggle("active");
-  });
+// document
+//   .querySelector(".btn-mobile-nav")
+//   .addEventListener("click", function () {
+//     document.querySelector(".fill").classList.toggle("active");
+//   });
